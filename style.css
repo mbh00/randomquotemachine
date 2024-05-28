@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    transition: background-color 0.8s ease 0s;
+}
+
+#quote-box {
+    min-height: 0px;
+    max-width: 0px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    color: #5394e7;
+    transition: color 0.8s ease 0.2s;
+}
+
+#tquote,
+#new-quote {
+    opacity: 0;
+}
+
+.right {
+    float: right;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    transition: color 0.8s ease 0s;
+}
+
+.btn i {
+    font-size: 1.3em;
+    color: white;
+    transition: color 0.8s ease 0s;
+}
+
+.btn:hover i {
+    color: #777;
+}
+
+.footer {
+    color: white;
+    padding-top: 10px;
+}
